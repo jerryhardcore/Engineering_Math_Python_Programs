@@ -1,11 +1,17 @@
-                    GNU GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007
-
- Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
-
-                            Preamble
+I, Jerry Christofilis, a.k.a. Gerasimos Christofilis(Γεράσιμος Χριστοφύλλης)
+born 18th November, 1982 in Sydney, Australia, am the original and sole 
+creator of the software content and supporting *.txt documentation, of
+which I upload(not import) to my Github repository. As an amateur beginner 
+programmer, I prefer to learn by working on problems from the ground up,
+by researching aspects of Python language, engineering and math, and
+trying to apply that knowledge in unique ways, without importing from
+function libraries or copying segments of code, at least until I have 
+more experience, case in point, my first public program:
+"Jerry's RLC circuit calculator.py"
+I do however encourage and consent to my work being copied and modified,
+by any and all means outlined in this license, as I could learn from the
+improvements made to my work by others, and obtain exposure and 
+aknowledgment.
 
   The GNU General Public License is a free, copyleft license for
 software and other kinds of works.
@@ -672,3 +678,18 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+I, Jerry Christofilis, a.k.a. Gerasimos Christofilis(Γεράσιμος Χριστοφύλλης)
+born 18th November, 1982 in Sydney, Australia, am the original and sole 
+creator of the software content and supporting *.txt documentation, of
+which I upload(not import) to my Github repository. As an amateur beginner 
+programmer, I prefer to learn by working on problems from the ground up,
+by researching aspects of Python language, engineering and math, and
+trying to apply that knowledge in unique ways, without importing from
+function libraries or copying segments of code, at least until I have 
+more experience, case in point, my first public program:
+"Jerry's RLC circuit calculator.py"
+I do however encourage and consent to my work being copied and modified,
+by any and all means outlined in this license, as I could learn from the
+improvements made to my work by others, and obtain exposure and 
+aknowledgment.
