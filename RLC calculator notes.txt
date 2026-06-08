@@ -7,23 +7,31 @@ solving prompt queries as a real world test scenario for the reliability of said
 Contains error identification-correction -data-reentry system to correct for syntax, logical and math errors.
 Allows to solve calculation problems in a variety of ways by entering data when data is known, 
 leaving queries blank with ENTER when not known, and when additional flexible prompts for additional information fail, 
-or entered values unsolvable, returns to main menu. Program is for scenarios where the circuit has both reactance and resistance 
-and phase angle cannot be 0 or multiple of 90°(which would eliminate resistance or reactance). 
-Efficient menu branching to allow user to change mind in mid calculation, by entering empty values 
+or entered values unsolvable, returns to main menu. Program is for scenarios where the circuit has both reactance and resistance and phase angle cannot be 0 or multiple of 90°(which would eliminate resistance or reactance). 
+Efficient menu branching to allow the user to change their mind in mid calculation, by entering empty values 
 and returning quickly to main menu, without too many follow up redundant input prompts for a calculation 
 that is unsolvable due to insufficient data. Designed for users who like myself have limited knowledge of electrical engineering.
 
 Tip: if you don't know the answer to a prompt query,
- or don't want to continue with the queries for the problem you selected from the main menu, 
+or don't want to continue with the queries for the problem you selected from the main menu, 
 just press ENTER without data. 
-The program will either prompt you for more information or return to the main menu depending on information you already entered(or not entered).
+The program will either prompt you for more information or return to the main menu depending on information you already entered(or not entered). Eg. To solve for impedance, the quickest way is to know the resistance and net reactance 
+values if you don't know the net reactance, the program will ask you for inductive and capacitive reactance,
+if you don't know those, the program will ask you for inductance, capacitance and frequency, if you know resistance or reactance assocciated values but not both, the program will ask you for the phase angle. But if you entered values 
+for both resistance the reactance branch of queries that ultimately lead to zero net reactance, in other words, only
+the reistance value is valid, the program will not ask you for the phase angle, and return to the main menu.
 
 Explanation of trigonometric and inverse trigonometric functions and log functions:
 1st set of trig functions are based on Euler's identities 
 2nd set of trig functions express  angles in radians as fractional powers of
 imagnary unit "i" in proportion to a full rotation of the imaginary axis 
 (i^4 or 2π)
-3rd set of trig functions are based on Taylor/Maclaurin power series, each term of the power series is calculated with each iteration of a "for" loop, factorial functions are not defined or imported but expanded in the for loop. 
+3rd set of trig functions are based on Taylor/Maclaurin power series, each term of the power series is calculated 
+with and each iteration of a "for" loop, factorial functions are not defined or imported but expanded in the "for" loop. 
+The inverse trig functions are based around 3 core functions, a 2 value arctan function based on inverse recursive
+incremental testing of the tan function until it approximates an angle that results in an approximate of the initial 
+given arctan value.
+
 
 
 
