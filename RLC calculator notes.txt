@@ -18,5 +18,16 @@ Tip: if you don't know the answer to a prompt query,
 just press ENTER without data. 
 The program will either prompt you for more information or return to the main menu depending on information you already entered(or not entered).
 
+Explanation of trigonometric and inverse trigonometric functions and log functions:
+1st set of trig functions are based on Euler's identities 
+2nd set of trig functions express  angles in radians as fractional powers of
+imagnary unit "i" in proportion to a full rotation of the imaginary axis 
+(i^4 or 2π)
+3rd set of trig functions are based on Taylor/Maclaurin power series, each term of the power series is calculated with each iteration of a "for" loop, factorial functions are not defined or imported but expanded in the for loop. 
+
+
+
+
+
 Regards,
 Jerry
